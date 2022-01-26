@@ -7,7 +7,7 @@ import { IoWalletOutline } from 'react-icons/io5'
 export default function Home() {
   const { connectWallet, address } = useWeb3()
   return (
-    <div className='flex flex-col items-center bg-[#0d1116] justify-center min-h-screen'>
+    <div className='flex flex-col items-center gradient-bg-welcome justify-center min-h-screen'>
       <Head>
         <title>Coinbase Clone</title>
         <meta name='description' content='a simple coinbase clone app' />
